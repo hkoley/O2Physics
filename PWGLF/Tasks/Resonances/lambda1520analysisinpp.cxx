@@ -19,7 +19,7 @@
 #include "Common/DataModel/Multiplicity.h"
 #include "Common/DataModel/PIDResponseTOF.h"
 #include "Common/DataModel/PIDResponseTPC.h"
-#include "Common/DataModel/TrackSelectionTables.h"// Copyright 2019-2020 CERN and copyright holders of ALICE O2.
+#include "Common/DataModel/TrackSelectionTables.h" // Copyright 2019-2020 CERN and copyright holders of ALICE O2.
 // See https://alice-o2.web.cern.ch/copyright for details of the copyright holders.
 // All rights not expressly granted are reserved.
 //
@@ -1514,7 +1514,6 @@ WorkflowSpec defineDataProcessing(ConfigContext const& cfgc)
 {
   return WorkflowSpec{adaptAnalysisTask<Lambda1520analysisinpp>(cfgc)};
 }
-
 
 #include "Framework/AnalysisTask.h"
 #include "Framework/HistogramRegistry.h"
